@@ -98,18 +98,18 @@ body .carousel .carousel-inner .carousel-item img {
 
 @media (max-width: 768px) {
   .container-form {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
   }
   .container-form form textarea {
     display: block;
-    max-width: 100%;
-    min-width: 100px;
+    max-width: 100% !important;
+    min-width: 100px !important;
   }
   iframe {
-    width: 100%;
+    width: 100% !important;
   }
   .img-sobrenos {
-    width: 100%;
+    width: 100% !important;
   }
 }/*# sourceMappingURL=style.css.map */
